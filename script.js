@@ -41,7 +41,7 @@ Q&&(R.onload=Q);document.getElementsByTagName("head")[0].appendChild(R);if(M()){
     },
     "linkTarget": "www.goobing.tk/",
     "webSearchQueryAddition": "",
-    "queryParameterName": "www.goobing.tk/",
+    "queryParameterName": "www.goobing.tk/?q=",
     "enableHistory": true,
     "numTopRefinements": 2147483647,
     "enableRichSnippets": true,
