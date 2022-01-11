@@ -87,7 +87,7 @@
 		<div class="main">
 			<center><img src="images/image0.png" height="478" width="478"></img></center>
 		<div class="searchBx">
-			<input type="text" name="" class="query">
+			<input type="text" name="" class="query" value="">
 			<div class="icons">
 				<div><img src="images/search.png"></div>
 				<div><img src="images/mic.png"></div>
@@ -98,5 +98,13 @@
 	</div>
 	</div>
 	</section>
+	<script>
+		Let query = document.querySelector('.query');
+		Let searchBtn = document.querySelector('searchBtn');
+		
+		searchBtn.oneclick = function(){
+			Let url = "https://www.googl.com/search?q='+query.value;
+			window.open(url, '_self');
+		}
 	</body>
 </html>
