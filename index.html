@@ -14,11 +14,32 @@
 	<link rel="shortcut icon" type="image/jpg" href="images/goobing.jpg" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 </head>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: #414347;
+  font-size: 25px;
+}
 
+.dark-mode {
+  background-color: #414347;
+  color: white;
+}
+</style>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <body>
     <a href="https://questsearch.tk/"><center><img src="images/image0.png" height="300" width="300"></img></center></a>
 		<script async src="https://cse.google.com/cse.js?cx=95118343230334da3"></script>
 	<div class="gcse-searchbox-only" data-ResultsUrl="/results"></div>
         <center><p style="font-size: 14px;">2022 Quest Search ©</p></center>
-	</body>
+</body>
 </html>
